@@ -48,7 +48,7 @@ if (!ns.Any())
 if (ns.Count() == 1)
 {
     var element = ns.FirstOrDefault() as XElement;
-    element!.SetValue("&gt;= 50");
+    element!.SetValue(">= 50");
     dmnElement.Save(filePath);
 }
 
